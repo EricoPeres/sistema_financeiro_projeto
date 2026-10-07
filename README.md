@@ -66,3 +66,5 @@ python -m unittest discover -s tests -t .
 - **Mudança no banco:** altere `_criar_tabelas`, crie `_migrar_para_vN` em `database.py` e aumente
   `SCHEMA_VERSION` em `config.py`.
 - **Novo item no CSV:** edite `linhas_resumo()` em `exportacao.py` (e o atributo correspondente em `models/resumo.py`).
+
+## Criado por ericodesenvolvimentodesistemas@gmail.com
